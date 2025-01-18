@@ -1,0 +1,31 @@
+{
+	"BUILD_DIR" : "D:/QT_Project/hello_window/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/hello_window_autogen",
+	"CMAKE_BINARY_DIR" : "D:/QT_Project/hello_window/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/QT_Project/hello_window/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/QT_Project/hello_window",
+	"CMAKE_SOURCE_DIR" : "D:/QT_Project/hello_window",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "D:/QT_Project/hello_window/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/hello_window_autogen/include",
+	"INPUTS" : 
+	[
+		"D:/QT_Project/hello_window/compute_shader.comp",
+		"D:/QT_Project/hello_window/gl.vert",
+		"D:/QT_Project/hello_window/gl.frag",
+		"D:/QT_Project/cs/pic (1).jpg",
+		"D:/QT_Project/cs/pic (2).jpg",
+		"D:/QT_Project/cs/pic (3).jpg",
+		"D:/QT_Project/cs/pic (4).jpg"
+	],
+	"LOCK_FILE" : "D:/QT_Project/hello_window/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/CMakeFiles/hello_window_autogen.dir/AutoRcc_shader_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "shader" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_shader.cpp",
+	"RCC_EXECUTABLE" : "D:/QT6/6.6.3/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/QT_Project/hello_window/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/CMakeFiles/hello_window_autogen.dir/AutoRcc_shader_EWIEGA46WW_Used.txt",
+	"SOURCE" : "D:/QT_Project/hello_window/shader.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

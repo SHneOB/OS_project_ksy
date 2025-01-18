@@ -1,0 +1,20 @@
+#version 450
+
+layout(local_size_x = 1, local_size_y = 1) in;
+layout(rgba8, binding = 0) uniform image2D img;
+layout(std430, binding = 1) buffer Histogram {
+    uint histogram[256 * 3]; //一个足够大的数组
+};
+void main() {
+    ivec2 coords = ivec2(gl_GlobalInvocationID.x,gl_GlobalInvocationID.y);
+    vec4 color = imageLoad(img, coords);
+        uint r = uint(color.r * 255.0);
+        uint g = uint(color.g * 255.0);
+        uint b = uint(color.b * 255.0);
+        uint a = uint(color.a * 255.0);
+        atomicAdd(histogram[0], r);
+        atomicAdd(histogram[1], g);
+        atomicAdd(histogram[2], b);
+        atomicAdd(histogram[3], a);
+        atomicAdd(histogram[4], 1);
+}
